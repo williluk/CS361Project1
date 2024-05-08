@@ -1,0 +1,33 @@
+<html> 
+    <head>
+        <title> Luke Williams Code Blog </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="highlight/styles/github-dark-dimmed.min.css">
+        <script src="highlight/highlight.min.js"></script>
+        <!-- <script>hljs.highlightAll();</script> -->
+        
+    </head>
+    <body>
+        <div id="title-container">
+            <div id="title">Code Blog</div>
+            <div class="dropdown">
+                <button id="drop-button" onclick="ProjectsDropdown()" class="dropbtn">Choose a Project</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                </div>
+                <a id="download-link" href="" download>Download!</a>
+            </div>
+        </div>
+        <hr>
+        <div id="content-container">
+            <div id="file-man">
+            </div>
+            <div id="code-container" class="container">
+                <pre><code id="code">
+You can view pieces code I've written as part of their larger project directory! Click on the "Choose a Project" button to check them out! 
+                </code></pre>
+            </div>
+        </div>
+        <script src="js/blog.js"></script>
+    </body>
+</html>

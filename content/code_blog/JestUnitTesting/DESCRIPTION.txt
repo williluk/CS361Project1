@@ -1,0 +1,12 @@
+--Title:      Roman Numeral Converter Unit Testing and TDD
+--Author:     Luke Williams
+--Email:      williamsluke271@gmail.com
+--Date:       Feb 4, 2024     
+
+--Program Description--
+
+My work on this program came in two parts. The first was the unit testing for the verifyEmail.js and verifyPassword.js files,
+which are contained in the verifyEmail.test.js and verifyPassword.test.js files. For clarity, I did not write the origonal .js
+files. The second part was creating the romanNumeralConverter.js and romanNumeralConverter.test.js file together using Test 
+Driven Development.
+

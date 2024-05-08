@@ -1,0 +1,19 @@
+--Title:      Evolution Simulation 
+--Author:     Luke Williams
+--Email:      williamsluke271@gmail.com
+--Date:       Dec 15, 2023     
+
+--Program Description--
+
+This program simulates the evolution of life-like creatures in response to their evironment through a web browser. This is done by
+controlling the behavior of these creatures through a nueral network that converts visual data gathered by raycasts into 2D rotation
+and movement. Statistics related to calculation speeds are shown on the web page (the full page is accessible from my portfolio's 
+home page).
+
+--How to Compile--
+
+This program requires no compilation 
+
+--How to Execute--
+
+Check out the link on the portfolio home page!

@@ -1,0 +1,57 @@
+<html> 
+    <head>
+        <title> Blue Critters Evolution Simulation </title>
+        <script src="../js/matrixMult.js" charset="utf-8" defer></script>
+        <script src="../js/classes.js" charset="utf-8" defer></script>
+        <script src="../js/update.js" charset="utf-8" defer></script>
+        <link rel="stylesheet" href="sim.css">
+    </head>
+    <body>
+        
+
+        <div id="play-space">
+            <div id="creature-holder">
+                <!-- <div class="creature" id="char"> :</div> -->
+            </div>
+            <div id="food-holder">
+                
+            </div>
+        </div>
+        <div class="super-container">
+            <div class="container" id="header-holder"> 
+                <h3>| Code Blog | <a HREF="index.html"> | Home Page | </a></h3>
+            </div>
+            <div class="container">
+                <div> Playback Speed </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="200" value="100" class="slider" id="playback-slider">
+                    <div class="slider-output" id="playback-output">1</div>
+                </div>
+                <div> Learning Factor </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="10" class="slider" id="learning-factor-slider">
+                    <div class="slider-output" id="learning-factor-output">0.1</div>
+                </div>
+            </div>
+            <!-- <div class="container" id="button-holder">
+                <button id="update-button" class="action-button"> Restart Simulation</button>
+                
+            </div> -->
+        </div>
+        <div class="container" id="stats-holder">
+            <div id="total-ex-time" class="stats"> 100 </div>
+            <div id="nn-ex-time" class="stats"> 100 </div>
+        </div>
+
+
+        <div id="popup">
+            <div id="pop-back"></div>
+            <div id="pop-text">
+                <div>
+                    <b>Welcome!</b> This is a page which will simulate the creatures moving, seeing, and reproducing. Each of the blue critters is controlled by a <b>neural network</b> which they inherit from their parent (or have randomly generated). This neural network will take in some basic visual input from their "eye" and output their <b>speed</b> and <b>direction</b>. Their goal is to collect food, allowing them to have children. Watch as they go from doing dopey donuts to true hunters!
+                </div>
+                <button id="close-pop-button" class="action-button">Start!</button>
+            </div>
+        </div>
+    </body>
+</html>
