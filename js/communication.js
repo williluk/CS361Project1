@@ -6,10 +6,7 @@ async function postJSON(data, filename)
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-            "username": "YOUR_USERNAME",
-            "password": "YOUR_PASSWORD"
-        })
+        body: JSON.stringify({data})
     });
     fetch(myRequest);
 }
