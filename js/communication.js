@@ -19,7 +19,7 @@ async function postJSON(data, filename)
 async function fetchJSON(filename) 
 {
     try {
-        const response = await fetch("data/" + filename, {
+        const response = await fetch("https://williluk.github.io/CS361Project1/data/" + filename, {
         method: "POST", // or 'PUT'
         headers: {
             "Content-Type": "application/json",
