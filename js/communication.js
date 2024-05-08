@@ -11,10 +11,7 @@ async function postJSON(data, filename)
             "password": "YOUR_PASSWORD"
         })
     });
-    fetch(myRequest).then((response) => response.text()).then((text) => 
-    {
-        
-    });
+    fetch(myRequest);
 }
 
 async function fetchJSON(filename) 
