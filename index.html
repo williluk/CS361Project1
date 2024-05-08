@@ -1,33 +1,63 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Main Program</title>
-
+        <title> Luke Williams </title>
         <link rel="stylesheet" href="style.css">
-        <script src="js/communication.js" charset="utf-8" defer></script>
-        <script src="js/login.js" charset="utf-8" defer></script>
-        <!-- <script src="js/script.js" charset="utf-8" defer></script> -->
+        <link rel="stylesheet" href="highlight/styles/github-dark-dimmed.min.css">
+        <script src="highlight/highlight.min.js"></script>
+        <script>//hljs.highlightAll();</script>
     </head>
     <body>
-        <form name="login-form" method="post">
-            <div class="container">
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
-          
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-          
-              <button id="login-submit-button">Login</button>
-              <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-              </label>
+        <div id="large-container">
+            <img id="fun-photo" src="images/IMG_1893_2.jpg" object-fit="scale-down" ></img>
+
+        
+            <div id="main-container">
+                <div id="luke-williams" class="container">
+                    <h1> Hi, I am Luke Williams </h1>
+                    <p> I'm currently a student at Oregon State University, studying to become a great game designer! I absolutly love exploring and creating art of all sorts, and you'll find many such projects, anecdotes, and musings as you explore this little page of mine. If you want to learn more about me, you've come to the right place, and I thank you for your curiosity! 
+                    </p>
+                </div>
+                <div id="code-library" class="container">
+                    <h2> Check Out My Code Library! </h1>
+                    <p> I've worked on school projects, games, and tons of other miscellaneous programs! If you want to check out my work, please follow the link! </p>
+                    <a class="button" href="blog.html">Code Blog</a>
+                </div>
+                <div id="sim" class="container">
+                    <h2> AI Evolution Simulation </h1>
+                    <p> This is a simulation I created that involves potentially hundreds of small neural network creatures that evolve their thinking over time, and it runs in your browser! The creatures are able to control their forward thrust and a degree of left/right rotation, and their goal is to consume food that is randomly generated in the world. If you run and observe for about five to ten minutes, you should see families of creatures specifically designed to maximize their speed and eventually move in wave-like patterns. Take a look!</p>
+
+                    <a class="button" href="sim/sim.html">AI Sim</a>
+                </div>
+
+                <div id="sim" class="container">
+                    <h2> AI Evolution Simulation </h1>
+                    <p> This is a simulation I created that involves potentially hundreds of small neural network creatures that evolve their thinking over time, and it runs in your browser! The creatures are able to control their forward thrust and a degree of left/right rotation, and their goal is to consume food that is randomly generated in the world. If you run and observe for about five to ten minutes, you should see families of creatures specifically designed to maximize their speed and eventually move in wave-like patterns. Take a look!</p>
+
+                    <a class="button" href="CS361Project1/index.html">New</a>
+                </div>
+                <!-- <div id="game-dev" class="container">
+                    <h2> Game Development Projects </h1>
+                    <p> Here you will find the majority of my game development experience! I've been messing around in Unity for years, and have a hundred half-projects that I won't be able to showcase here. Whenever possible, I'll provide a download link, because games are always best understood through playing them!</p>
+                    <img class="demo-image" id="sim-image" src="">
+                </div>
+                <div id="artwork" class="container">
+                    <h2> Artwork! </h1>
+                    <p> Here you will find the majority of my game development experience! I've been messing around in Unity for years, and have a hundred half-projects that I won't be able to showcase here. Whenever possible, I'll provide a download link, because games are always best understood through playing them!</p>
+                    <img class="demo-image" id="sim-image" src="">
+                </div>
+                <div id="writing" class="container">
+                    <h2> My Personal Writing </h1>
+                    <p> Whether for school or for fun, argumentative or technical, I love writing! This link will lead you to a repository of essays, documentation, and maybe a little poetry (hopefully not too derivative). Also, I’ve included a few fully-fleshed out Game Design Documents here. This is my way of expressing the know-how and theory behind creating games that are way outside the scope of one person, but I hope you enjoy them anyway! </p>
+                </div> -->
             </div>
-          
-            <div class="container" style="background-color:#f1f1f1">
-              <button type="button" class="cancelbtn">Cancel</button>
-              <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-          </form>
+             
+            <!-- <div id="table-of-contents">
+                <h3> <a HREF="#luke-williams">I'm Luke Williams</a> </h3> 
+                <h3> <a HREF="#code-library"> Code Library </a> </h3> 
+                <h3> <a HREF="#sim"> AI Simulation </a></h3>
+                <h3> <a HREF="#game-dev"> Game Dev </a></h3>
+                <h3> <a HREF="#artwork"> Artwork </a></h3>
+            </div> -->
+        </div>
     </body>
 </html>
