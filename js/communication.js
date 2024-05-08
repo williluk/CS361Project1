@@ -8,7 +8,10 @@ async function postJSON(data, filename)
         },
         body: JSON.stringify({data})
     });
-    fetch(myRequest);
+    fetch(myRequest).then((response) => response.text()).then((text) => 
+    {
+        
+    });
 }
 
 async function fetchJSON(filename) 
