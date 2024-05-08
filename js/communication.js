@@ -12,6 +12,13 @@ async function postJSON(data, filename)
     {
         
     });
+<<<<<<< HEAD
+=======
+    fetch(myRequest).then((response) => response.text()).then((text) => 
+    {
+        
+    });
+>>>>>>> parent of 899200e... basic server communication test 3
 }
 
 async function fetchJSON(filename) 
