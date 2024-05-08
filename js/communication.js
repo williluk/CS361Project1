@@ -18,18 +18,11 @@ async function postJSON(data, filename)
 
 async function fetchJSON(filename) 
 {
-    try {
-        const response = await fetch("https://williluk.github.io/CS361Project1/data/" + filename, {
-        method: "POST", // or 'PUT'
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-        });
-
-        const result = await response.json();
-        console.log("Success:", result);
-    } catch (error) {
-        console.error("Error:", error);
-    }
+    var data;
+    const myRequest = new Request("data/" + filename);
+    fetch(myRequest).then((response) => response.text()).then((text) => 
+    {
+        data = text;
+    });
+    return data;
 }
