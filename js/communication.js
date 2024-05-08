@@ -22,7 +22,8 @@ async function fetchJSON(filename)
     const myRequest = new Request("data/" + filename);
     fetch(myRequest).then((response) => response.text()).then((text) => 
     {
-        data = text;
+        data = text
+        console.log(data)
     });
-    return data;
+    return data
 }
